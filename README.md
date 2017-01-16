@@ -17,7 +17,7 @@ Google Play and the Google Play logo are trademarks of Google Inc.
 
 # Menu do Candidato
 
-Applicativo que permite com que alunos que vão fazer a prova do PAS e Vestibular ver suas informações. 
+Applicativo que permite com que alunos que irão fazer a prova do PAS e Vestibular vejam suas informações.
 
 Salva os dados localmente para uso offline, utiliza provedores de conteúdo.
 
