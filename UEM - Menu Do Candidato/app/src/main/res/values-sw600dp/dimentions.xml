@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="login_banner_height">150dp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <integer name="column_number">2</integer>
+</resources>

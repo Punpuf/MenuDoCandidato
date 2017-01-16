@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.punpuf.uem_menudocandidato">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- adds support to some Chromebooks -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+
+    <application
+        android:name="Application"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:noHistory="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/AppTheme.NoAppTitle"
+            android:windowSoftInputMode="stateHidden"
+            android:noHistory="true">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="punpuf.com/uem-menu"/>
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".ui.HomeActivity" />
+
+        <activity
+            android:name=".ui.ScreenSlideEssayActivity"
+            android:parentActivityName=".ui.HomeActivity"
+            android:theme="@style/EssayActivityTheme"/>
+
+        <provider
+            android:authorities="com.punpuf.uem_menudocandidato.provider"
+            android:name=".data.DatabaseProvider"
+            android:exported="false"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.punpuf.uem_menudocandidato"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+
+</manifest>

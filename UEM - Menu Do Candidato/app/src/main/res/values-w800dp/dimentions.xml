@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="login_banner_height">400dp</dimen>
+
+    <dimen name="home_list_margin">64dp</dimen>
+
+
+</resources>

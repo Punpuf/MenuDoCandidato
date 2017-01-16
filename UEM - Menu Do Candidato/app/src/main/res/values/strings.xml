@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Applicant\'s Menu</string>
+    <string name="pref_file_key" translatable="false">com.punpuf.uem_menudocandidato</string>
+    <string name="pref_boleto_link" translatable="false">boleto_link</string>
+
+    <!-- Login STRINGS -->
+
+    <string name="login_image_description">UEM\'s Logo</string>
+    <string name="login_hint_registration_num">Registration Number</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_forgot_info">Forgot your registration number or password? <a href="http://www.npd.uem.br/cvu/index.zul">Access UEM\'s site</a></string>
+    <string name="login_save_pass">Keep me logged in</string>
+    <string name="login_disclaimer">DISCLAIMER: This isn\'t the official UEM app, neither has any affiliation what so ever with UEM</string>
+    <string name="login_error_invalid_number">The registration number must be 6 or 10 digits</string>
+    <string name="login_error_invalid_password">Please type a password</string>
+    <string name="login_error_invalid_credentials">Invalid credential number or password</string>
+    <string name="login_network_request_error">A network error occurred</string>
+
+
+
+    <!-- Home STRINGS -->
+
+    <string name="home_menu_logout">Logout</string>
+    <string name="home_menu_add_to_calendar">Add to calendar</string>
+
+    <string name="home_card_title_applicants_info">Applicant\'s Info</string>
+    <string name="home_field_title_applicant_name">Name: </string>
+    <string name="home_field_title_applicant_registration_number">Registration Number: </string>
+    <string name="home_field_title_applicant_birthdate">Birthdate: </string>
+    <string name="home_field_title_applicant_document_type">Document Type: </string>
+    <string name="home_field_title_applicant_document_number">Document Number: </string>
+    <string name="home_field_title_applicant_gender">Gender: </string>
+    <string name="home_field_title_applicant_is_left_handed">Is left handed: </string>
+    <string name="home_field_title_applicant_uses_quota">Uses Quota: </string>
+
+    <string name="home_card_title_payment_info">Payment Info</string>
+    <string name="home_field_title_payment_status">Payment Status: </string>
+    <string name="home_field_title_payment_date">Payment Date: </string>
+    <string name="home_see_boleto_button">See Payment Slip</string>
+
+    <string name="home_card_title_exam_info">Exam Info</string>
+    <string name="home_field_title_exam_name">Exam Name: </string>
+    <string name="home_field_title_exam_phase">Exam Phase: </string>
+    <string name="home_field_title_exam_date">Exam Date: </string>
+    <string name="home_field_title_exam_date_1">Exam Date 1: </string>
+    <string name="home_field_title_exam_date_2">Exam Date 2: </string>
+    <string name="home_field_title_exam_date_3">Exam Date 3: </string>
+    <string name="home_field_title_exam_discipline_1">Exam Discipline 1: </string>
+    <string name="home_field_title_exam_discipline_2">Exam Discipline 2:</string>
+    <string name="home_field_title_exam_room">Exam Room: </string>
+    <string name="home_field_title_exam_block">Exam Block: </string>
+    <string name="home_field_title_exam_course">Course: </string>
+    <string name="home_field_title_exam_exam_foreign_language">Foreign Language: </string>
+    <string name="home_field_title_exam_competition">Exam Competition: </string>
+
+    <string name="home_card_title_exam_location_info">Exam Location</string>
+    <string name="home_field_title_exam_location_headquarters">Headquarters:</string>
+    <string name="home_field_title_exam_location_city">City:</string>
+    <string name="home_field_title_exam_location_street">Street:</string>
+    <string name="home_field_title_exam_location_block">Block:</string>
+    <string name="home_field_title_exam_location_room">Room:</string>
+    <string name="home_see_exam_location_button">See on Map</string>
+    <string name="home_unable_to_open_map">Unable to open map</string>
+
+    <string name="home_card_title_points_info">Score and Results</string>
+    <string name="home_field_title_points_total_stage_1">Stage 1 Score:</string>
+    <string name="home_field_title_points_total_stage_2">Stage 2 Score:</string>
+    <string name="home_field_title_points_total_stage_final">Final Stage Score:</string>
+    <string name="home_field_title_points_score_general_knowledge">General Knowledge Score:</string>
+    <string name="home_field_title_points_score_portuguese">Portuguese and Literature Score:</string>
+    <string name="home_field_title_points_score_foreign_languages">Foreign Languages Score:</string>
+    <string name="home_field_title_points_score_composing">Composing Score:</string>
+    <string name="home_field_title_points_score_discipline_1">Specific Knowledge Score (%1$s):</string>
+    <string name="home_field_title_points_score_discipline_2">Specific Knowledge Score (%1$s):</string>
+    <string name="home_field_title_points_classification">Classification:</string>
+    <string name="home_field_title_points_approval_result">Approval Result:</string>
+
+    <string name="home_card_title_composing_info">Essay</string>
+    <string name="home_field_title_composing_genre_1">Genre 1:</string>
+    <string name="home_field_title_composing_genre_2">Genre 2:</string>
+    <string name="home_field_title_composing_score">Score:</string>
+    <string name="home_content_description_essay_iv">Essay</string>
+
+    <string name="home_points_approval_result_approved">Approved</string>
+    <string name="home_points_approval_result_approved_by_quota">Approved by Quota</string>
+    <string name="home_points_approval_result_rejected">Rejected</string>
+
+
+    <string name="home_toast_add_to_calendar_error">Unable to add to calendar</string>
+    <string name="home_snackbar_unable_to_get_credentials">Unable to get your credentials</string>
+    <string name="home_snackbar_invalid_credentials">Invalid credentials</string>
+    <string name="home_snackbar_an_error_occurred">An error occurred</string>
+    <string name="home_snackbar_network_error">A network error occurred</string>
+    <string name="home_snackbar_action_try_again">Try Again</string>
+    <string name="home_snackbar_action_login_again">Login Again</string>
+
+    <string name="home_content_description_genre_1_iv">Genre 1 Essay</string>
+    <string name="home_content_description_genre_2_iv">Genre 2 Essay</string>
+
+    <string name="inconvenience_was_shown_key" translatable="false">pref_inconvenience</string>
+    <string name="inconvenience_title">Sorry for the inconvenience</string>
+    <string name="inconvenience_message">While were adapting to UEM\'s new database, there might be some typos and errors</string>
+
+    <!-- Essay STRINGS -->
+
+    <string name="essay_view_pager_genre_title">Essay Genre %1$s</string>
+    <string name="essay_menu_title_share">Share</string>
+    <string name="essay_menu_title_print">Print</string>
+    <string name="essay_content_description_right_nav_btn">Next Image</string>
+    <string name="essay_content_description_left_nav_btn">Previous Image</string>
+    <string name="essay_print_job_name">Essay %1$d (%2$s)</string>
+    <string name="essay_share_choose_app">Share with</string>
+
+</resources>
